@@ -28,9 +28,9 @@
 
 # ゼロから作る流れ（Windows環境を想定・・・がどれでも同じような気がする）
 - 1.最初に、Git、Docker、VSCodeをダウンロードし、Githubのアカウントを作る。
--   -VSCode内、拡張機能にて各種インストールする。
--   -→Japanese Language Pack , Python , Remote Development , Docker （いらないものもありそうだけれども・・）
--   -上記色々設定項目あるが、基本デフォルト設定で連打インストールで善いと思われる。
+- 　VSCode内、拡張機能にて各種インストールする。
+-  　→Japanese Language Pack , Python , Remote Development , Docker （いらないものもありそうだけれども・・）
+- 　上記色々設定項目あるが、基本デフォルト設定で連打インストールで善いと思われる。
 
 - 2.githubのリポジトリ（保管場所）からローカル環境へクローン（丸ごとコピー）
 -   本リポジトリtest2　
