@@ -48,3 +48,4 @@ https://github.com/Satou-Kazuki/test2.git
   クローン元のtest2には、Dockerのコンテナファイルが入っているので、VScodeでのクローンが終わった段階で
   コンテナ作成の案内が来る。OKすると、イメージを元にコンテナが作成されていくのでしばし待つ。
   →今回使うイメージはjupyter/datascience-notebookでDockerHubに公開されているもの。
+  
