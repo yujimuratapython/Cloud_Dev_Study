@@ -11,7 +11,7 @@
 - https://www.docker.com/
 - 参考：https://www.pasonatech.co.jp/workstyle/column/detail.html?p=2675
 - 使ってるイメージファイル：https://hub.docker.com/r/jupyter/datascience-notebook/tags?page=1&ordering=last_updated
-- 　補足：DockerがBIOSうんたらかんたらで起動しない場合。https://mrkmyki.com/docker%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%9F%E3%82%89%E3%80%8Chardware-assisted-virtualization-and-data-execution-protection-must-be-enabled-in-the-bios
+- 　補足：DockerがBIOSのCPUの仮想化設定がDisableだとかで起動しない場合。https://mrkmyki.com/docker%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%9F%E3%82%89%E3%80%8Chardware-assisted-virtualization-and-data-execution-protection-must-be-enabled-in-the-bios
 - 　ちなみに、AMDのCPUの場合BIOS設定でSVMをEnableにすると動くかもしれないし動かないかもしれない。
 
 # 上記インストールが終わったら、下記参考ページ
@@ -25,3 +25,8 @@
 - https://kitsune.blog/dockerfile-summary
 - Python, pipでrequirements.txtを使ってパッケージ一括インストール
 - https://note.nkmk.me/python-pip-install-requirements/
+
+# ゼロから作る流れ（Windows環境を想定・・・がどれでも同じような気がする）
+# 最初に、Git、Docker、VSCodeをダウンロードし、Githubのアカウントを作る。
+- 上記色々設定項目あるが、基本デフォルト設定で連打インストールで善いと思われる。
+- 
