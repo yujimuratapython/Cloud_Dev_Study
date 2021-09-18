@@ -1,7 +1,7 @@
 # チーム開発感ある環境を整える（暇だったら）
 # 最初にやること
 ◆Githubのアカウント作成 
-- 参考:https://www.sejuku.net/blog/73468
+- 参考:https://www.sejuku.net/blog/73468.
 ◆gitインストール- https://git-scm.com/
 - ◆VSCodeインストール - https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 - 　参考github連携：https://breezegroup.co.jp/202102/vscode-github-windows/
