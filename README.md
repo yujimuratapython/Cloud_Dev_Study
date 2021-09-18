@@ -2,7 +2,7 @@
 # 最初にやること
 ◆Githubのアカウント作成 
 - 参考:https://www.sejuku.net/blog/73468
-- ◆gitインストール- https://git-scm.com/
+◆gitインストール- https://git-scm.com/
 - ◆VSCodeインストール - https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 - 　参考github連携：https://breezegroup.co.jp/202102/vscode-github-windows/
 - 　参考Docker連携：https://qiita.com/Yuki_Oshima/items/d3b52c553387685460b0
