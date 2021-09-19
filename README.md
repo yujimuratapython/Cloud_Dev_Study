@@ -30,10 +30,10 @@
 - Linuxを体系的に勉強するまとめ（linuxがからんでくるので、都度確認する用）
 - https://kitsune.blog/engineer/linux
 
-# ゼロから作る流れ（Windows環境を想定・・・がどれでも同じような気がする）
+# ゼロから環境構築
 - Git、Docker、VSCodeインストール、Githubのアカウント作成\
-  VSCode内、下記拡張機能インストールを行う。\
-【Japanese Language Pack , Python , Remote Development , Docker】
+- VSCode内、下記拡張機能インストールを行う。\
+-【Japanese Language Pack , Python , Remote Development , Docker】
 - githubのリポジトリからローカル環境へクローンする。
 - https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
 \
@@ -43,7 +43,7 @@
 - 今回は2の方法で環境を整えていく。\
 \
 【クローン後の流れ】\
-クローンをすると、指定したフォルダ配下にローカルリポジトリが作成されて、まるまるコピーが作成される。\
+ クローンをすると、指定したフォルダ配下にローカルリポジトリが作成されて、まるまるコピーが作成される。\
 クローンしたCloud_Dev_Studyには、Dockerのコンテナファイルが入っているので、\
 VSCode内にて、コンテナ作成の案内が来る。OKすると、イメージを元にコンテナが作成されていくのでしばし待つ。\
 →今回使うイメージはjupyter/datascience-notebookでDockerHubに公開されているものを利用。\
