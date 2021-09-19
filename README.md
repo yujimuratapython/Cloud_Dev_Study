@@ -88,7 +88,7 @@ https://github.com/Satou-Kazuki/test2.git
 - 参考：仮想マシン標準的なもので、1H毎10円 1ヵ月フル稼働で9000円ほどらしい（リソースの利用具合によっても変わる）
 ```
 
-# Azure PortalでLinux仮想マシンを作成する・・・（windows環境とかもある）
+# Azure Portalでクラウド上Linux仮想マシンを作成する・・・（windows環境とかもある）
 - 作成の流れ自体はその辺のサイトに書いている内容で問題ないが、注意する点というか引っかかった点として以下がある。
 
 ```
@@ -112,6 +112,8 @@ Azure　CLIか Tera Termのようなもので接続する必要がある。
 ```
 基本的にこの画面内で、開始、再起動、停止やその他設定が行える。
 ```
+
+```
 - Azure Portal 仮想マシンページ内　【接続】という項目があるので、RDP、SSHの項目を確認するとパブリックIPがわかるので
 - TeraTerm（コマンドプロンプトみたいなもの）にIPを入力して、SSHで接続を行う。
 - 何か表示されるが、そのままOKして設定した【ユーザー名】入力と、認証方式で【RSA/DSA/ECDSA/ED25519鍵を使う】を選択し、
@@ -123,7 +125,6 @@ Azure　CLIか Tera Termのようなもので接続する必要がある。
 
 # コンソール接続を行えたあとからの流れ
 - Azure CLIインストール（詳細はよくわからないが入れた・・）
-- 
 -Linux側リモート接続するためのアプリインストールする。
 ```
 sudo apt-get update \
@@ -132,10 +133,10 @@ sudo apt install xfce4-session \
 sudo apt-get -y install xrdp \
 sudo systemctl enable xrdp \
 echo xfce4-session >~/.xsession \
-sudo service xrdp restart \
+sudo service xrdp restart
 ```
-- 仮想マシンにパスワードを設定する。
-- →sudo passwd (入れたいパスワード）下記いれるとazureuserというパスワードが設定される。
+仮想マシンにパスワードを設定する。\
+→sudo passwd (入れたいパスワード）下記いれるとazureuserというパスワードが設定される。
 ```
 sudo passwd azureuser
 ```
