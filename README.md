@@ -35,15 +35,12 @@
  VSCode内、下記拡張機能インストールを行う。\
 【Japanese Language Pack , Python , Remote Development , Docker】\
 - 2.githubのリポジトリからローカル環境へクローンする。
-```
-https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
-```
-【備考】
+- https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
+【備考】\
 リポジトリのクローン方法・・・・\
 1.git bashから、コマンド入力で行う。\
 2.VSCodeのフォルダ管理から行う。\
 今回は2の方法で環境を整えていく。\
-\
 【クローン後の流れ】\
 クローンをすると、指定したフォルダ配下にローカルリポジトリが作成されて、まるまるコピーが作成される。\
 クローンしたCloud_Dev_Studyには、Dockerのコンテナファイルが入っているので、\
