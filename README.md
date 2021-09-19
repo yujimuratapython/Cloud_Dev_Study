@@ -36,7 +36,8 @@
 -【Japanese Language Pack , Python , Remote Development , Docker】
 - githubのリポジトリからローカル環境へクローンする。
 - https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
-\
+
+
 ◆リポジトリのクローン方法◆\
   git bashから、コマンド入力で行う。\
   VSCodeのフォルダ管理から行う。\
@@ -58,8 +59,8 @@ anaconda, python:3.9.6 , JupyterLab ,各種ライブラリ】がインストー�
 コンテナの作成及び実行が問題なく行われれば、VScodeとコンテナの相互が連携している状態になる。\
 \
 VSCode下部タスクバーみたいなところに><のようなアイコンがあり、\
-><の横にDev Container:Jupyter Projectと表示される。\
-><のアイコンからコンテナを停止させる等操作が行える。\
+【><】の横にDev Container:Jupyter Projectと表示される。\
+【><】のアイコンからコンテナを停止させる等操作が行える。\
 ※このタスクバーみたいなところに、現在利用してるインタプリタ等表示される。\
 ※タスクバー内、玉紐と↑↓はgithubへpull,commit,pushするための物。\
 \
