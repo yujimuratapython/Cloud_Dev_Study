@@ -90,11 +90,13 @@ https://github.com/Satou-Kazuki/test2.git
 
 # Azure PortalでLinux仮想マシンを作成する・・・（windows環境とかもある）
 - 作成の流れ自体はその辺のサイトに書いている内容で問題ないが、注意する点というか引っかかった点として以下がある。
+
 ```
 初期設定で【SSH(22)】、【RDP(3389)】のポート開放をチェックしとく。→後で設定できるがめんどくさい。
 SSH：【TeraTerm】(他の端末へアクセスするためのコマンドプロンプトみたいなアプリ）で仮想マシンへ接続するために使うポート
 RDP：こちら側から仮想マシンへリモートデスクトップするために使うポート
 ```
+
 ```
 SSH接続について、デフォ設定で作り終わる際に、秘密鍵作成しますっていうのが出てきて、
 【******(設定したユーザー名).pem】というファイルがダウンロードされるが、これがパスワードの代わりのようなものになる。
@@ -103,8 +105,10 @@ SSH接続について、デフォ設定で作り終わる際に、秘密鍵作�
 一番最初インストールされた状態のLinux環境（ubuntuをインストールした）ではDesktop環境もリモートでつながる環境もないので、
 Azure　CLIか Tera Termのようなもので接続する必要がある。
 ```
+
 # TeraTermで作った仮想マシンへコンソール接続を行う。
 - 仮想マシンが立ち上がると、Azure Portalに表示された状態になる。
+
 ```
 基本的にこの画面内で、開始、再起動、停止やその他設定が行える。
 ```
@@ -116,18 +120,19 @@ Azure　CLIか Tera Termのようなもので接続する必要がある。
 -【Install and configure xrdp to use Remote Desktop with Ubuntu】
 - https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
 ```
+
 # コンソール接続を行えたあとからの流れ
 - Azure CLIインストール（詳細はよくわからないが入れた・・）
 - 
 -Linux側リモート接続するためのアプリインストールする。
 ```
-sudo apt-get update
-sudo apt-get -y install xfce4
-sudo apt install xfce4-session
-sudo apt-get -y install xrdp
-sudo systemctl enable xrdp
-echo xfce4-session >~/.xsession
-sudo service xrdp restart
+sudo apt-get update \
+sudo apt-get -y install xfce4 \
+sudo apt install xfce4-session \
+sudo apt-get -y install xrdp \
+sudo systemctl enable xrdp \
+echo xfce4-session >~/.xsession \
+sudo service xrdp restart \
 ```
 - 仮想マシンにパスワードを設定する。
 - →sudo passwd (入れたいパスワード）下記いれるとazureuserというパスワードが設定される。
@@ -143,7 +148,9 @@ az vm open-port --resource-group myResourceGroup --name myVM --port 3389
 Azure PortalからRDP接続のファイルがダウンロード出来て、そこから接続できるように思えるが、
 なぜかこのファイルからリモートデスクトップ接続をうまく行えなかったので、下記にて実施。
 ```
+
 ウィンドウズのリモートデスクトップ接続を実行する。
+```
 ***.***.***.***:3389　（***.***.***.***)は仮想マシンのパブリックIP
 これで、問題なければ、RDP画面が起動し、【Login to my Xdrp】が表示されるので
 【Session】:Xorg 【username】:自分で設定したやつ 【password】:自分で設定したやつ
