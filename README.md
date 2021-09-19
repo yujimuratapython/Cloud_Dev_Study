@@ -76,7 +76,7 @@ VSCode下部タスクバーみたいなところに><のようなアイコンが
 【><】の横にDev Container:Jupyter Projectと表示される。\
 【><】のアイコンからコンテナを停止させる等操作が行える。\
 ※このタスクバーみたいなところに、現在利用してるインタプリタ等表示される。\
-※タスクバー内、玉紐と↑↓はgithubへpull,commit,pushするための物。\
+※タスクバー内、玉紐と↑↓はgithubへpull,commit,pushするための物。
 
 
 コンテナ内Linux環境下あるJupyterLabとpythonコンパイラへ、ローカルのVScodeからリモートでアクセスを行い、\
