@@ -79,5 +79,13 @@ https://github.com/Satou-Kazuki/test2.git
 ```
 - ここまでくればgithub　リポジトリからコードもらったり上げたり、チームでの開発が行えるようになっている・・・はず。
 
+# クラウドに仮想マシン作って、そこに開発環境をつくる。（今回はAzure利用）
+
+
+# 参考
+- Azure VM (Ubuntu Server 20.04 LTS) に GNOME + TigerVNC + xrdp を導入、リモート デスクトップ接続を行う
+- https://kogelog.com/2020/05/12/20200512-01/
+- WindowsのRDPを使ってクラウド上のLinuxインスタンスに接続する
+- https://qiita.com/yamada-hakase/items/a8efe626f598c5eb6f8c
   
   
