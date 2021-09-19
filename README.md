@@ -31,17 +31,16 @@
 - https://kitsune.blog/engineer/linux
 
 # ゼロから作る流れ（Windows環境を想定・・・がどれでも同じような気がする）
-- 1.Git、Docker、VSCodeインストール、Githubのアカウント作成\
+- Git、Docker、VSCodeインストール、Githubのアカウント作成\
   VSCode内、下記拡張機能インストールを行う。\
 【Japanese Language Pack , Python , Remote Development , Docker】
-- 2.githubのリポジトリからローカル環境へクローンする。
+- githubのリポジトリからローカル環境へクローンする。
 - https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
 \
-【備考】
-リポジトリのクローン方法・・・・\
-1.git bashから、コマンド入力で行う。\
-2.VSCodeのフォルダ管理から行う。\
-今回は2の方法で環境を整えていく。\
+【リポジトリのクローン方法】
+- git bashから、コマンド入力で行う。\
+- VSCodeのフォルダ管理から行う。\
+- 今回は2の方法で環境を整えていく。\
 \
 【クローン後の流れ】\
 クローンをすると、指定したフォルダ配下にローカルリポジトリが作成されて、まるまるコピーが作成される。\
@@ -50,7 +49,7 @@ VSCode内にて、コンテナ作成の案内が来る。OKすると、イメー
 →今回使うイメージはjupyter/datascience-notebookでDockerHubに公開されているものを利用。\
 \
 【コンテナのイメージ】\
-LinuxOSを元に、必要なアプリをインストールした仮想環境といった感じの物と思われる。\
+LinuxOS、Windowsを元に、必要なアプリをインストールした仮想環境といった感じの物と思われる。\
 \
 【今回使っているイメージ】
 - OS:Linuxのubuntu-20.04
