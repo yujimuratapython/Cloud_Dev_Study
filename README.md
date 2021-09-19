@@ -32,8 +32,8 @@
 
 # ゼロから作る流れ（Windows環境を想定・・・がどれでも同じような気がする）
 - 1.Git、Docker、VSCodeインストール、Githubのアカウント作成\
- VSCode内、下記拡張機能インストールを行う。\
-【Japanese Language Pack , Python , Remote Development , Docker】\
+- VSCode内、下記拡張機能インストールを行う。\
+-【Japanese Language Pack , Python , Remote Development , Docker】
 - 2.githubのリポジトリからローカル環境へクローンする。
 - https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
 【備考】\
