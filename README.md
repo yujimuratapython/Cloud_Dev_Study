@@ -81,11 +81,43 @@ https://github.com/Satou-Kazuki/test2.git
 
 # クラウドに仮想マシン作って、そこに開発環境をつくる。（今回はAzure利用）
 
+'''
+- azureへアカウント作成：クレジットカードとか登録しろって出るが・・・登録せずに使う方法もあるらしい・・
+- Azureでクラウド環境を利用するのは無料というわけではなく、従量課金制なのでお金はかかるが・・・
+- サインアップから30日、$200分くらいまでは無料で利用が可能。それ以後はすべてのリソース利用にお金が必要。
+- 参考：仮想マシン標準的なもので、1H毎10円 1ヵ月フル稼働で9000円ほどらしい（リソースの利用具合によっても変わる）
+'''
+
+# Azure PortalでLinux仮想マシンを作成する・・・（windows環境とかもある）
+- 作成の流れ自体はその辺のサイトに書いている内容で問題ないが、注意する点というか引っかかった点として以下がある。
+'''
+初期設定で【SSH(22)】、【RDP(3389)】のポート開放をチェックしとく。→後で設定できるがめんどくさい。
+SSH：【TeraTerm】(他の端末へアクセスするためのコマンドプロンプトみたいなアプリ）で仮想マシンへ接続するために使うポート
+RDP：こちら側から仮想マシンへリモートデスクトップするために使うポート
+'''
+'''
+SSH接続について、デフォ設定で作り終わる際に、秘密鍵作成しますっていうのが出てきて、
+【******(設定したユーザー名).pem】というファイルがダウンロードされるが、これがパスワードの代わりのようなものになる。
+→たぶん、このファイルなくしたらめんどくさいことになりそうなので、大切に保管する。
+→仮想マシン出来立ての時は、パスワードは設定されておらず、SSHで接続しに行く。（SSHが何かよくわからないので説明不可）
+一番最初インストールされた状態のLinux環境（ubuntuをインストールした）ではDesktop環境もリモートでつながる環境もないので、
+Azure　CLIか Tera Termのようなもので接続する必要がある。
+# TeraTermで作った仮想マシンへコンソール接続を行う。
+- 仮想マシンが立ち上がると、Azure Portalに表示された状態になる。
+'''
+基本的にこの画面内で、開始、再起動、停止やその他設定が行える。
+'''
+- Azure Portal 仮想マシンページ内　【接続】という項目があるので、
+- TeraTerm（コマンドプロンプトみたいなもの）で立ち上げた仮想マシンのパブリックIPアドレスへ
+'''
 
 # 参考
+- Azure で Linux 仮想マシンを作成する
+- https://docs.microsoft.com/ja-jp/learn/modules/create-linux-virtual-machine-in-azure/
 - Azure VM (Ubuntu Server 20.04 LTS) に GNOME + TigerVNC + xrdp を導入、リモート デスクトップ接続を行う
 - https://kogelog.com/2020/05/12/20200512-01/
 - WindowsのRDPを使ってクラウド上のLinuxインスタンスに接続する
 - https://qiita.com/yamada-hakase/items/a8efe626f598c5eb6f8c
-  
+- Install and configure xrdp to use Remote Desktop with Ubuntu
+- https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
   
