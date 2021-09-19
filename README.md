@@ -13,7 +13,7 @@
 - https://www.docker.com/
 - 参考：https://www.pasonatech.co.jp/workstyle/column/detail.html?p=2675
 - 使ってるイメージファイル：https://hub.docker.com/r/jupyter/datascience-notebook/tags?page=1&ordering=last_updated
-- 　補足：DockerがBIOSのCPUの仮想化設定がDisableだとかで起動しない場合。https://mrkmyki.com/docker%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%9F%E3%82%89%E3%80%8Chardware-assisted-virtualization-and-data-execution-protection-must-be-enabled-in-the-bios
+- 補足：DockerがBIOSのCPUの仮想化設定がDisableだとかで起動しない場合。https://mrkmyki.com/docker%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%97%E3%82%88%E3%81%86%E3%81%A8%E3%81%97%E3%81%9F%E3%82%89%E3%80%8Chardware-assisted-virtualization-and-data-execution-protection-must-be-enabled-in-the-bios
 - 　ちなみに、AMDのCPUの場合BIOS設定でSVMをEnableにすると動くかもしれないし動かないかもしれない。
 
 # 上記インストールが終わったら、下記参考ページ
@@ -31,15 +31,11 @@
 - https://kitsune.blog/engineer/linux
 
 # ゼロから作る流れ（Windows環境を想定・・・がどれでも同じような気がする）
-- 1.最初に、【Git、Docker、VSCode】をダウンロードおよびインストールを行い、【Githubのアカウントを作る。】
-```
-VSCode内、拡張機能にて各種インストールする。タイルみたいなアイコンのやつ。
-【Japanese Language Pack , Python , Remote Development , Docker】 （いらないものもありそうだけれども・・）
-上記色々設定項目あるが、基本デフォルト設定で連打インストールで善いと思われる。
-```
-- 2.githubの【リポジトリ（保管場所）】から【ローカル環境へクローン（丸ごとコピー）】/
-※クローンする先は、指定なければユーザー配下になると思われる。/
-本リポジトリtest2のURL
+- 1.Git、Docker、VSCodeインストール、Githubのアカウント作成\
+ VSCode内、下記拡張機能インストールを行う。\
+【Japanese Language Pack , Python , Remote Development , Docker】\
+- 2.githubのリポジトリからローカル環境へクローンする。
+
 ```
 https://github.com/Satou-Kazuki/test2.git
 ```
