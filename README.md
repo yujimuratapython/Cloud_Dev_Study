@@ -132,7 +132,7 @@ sudo service xrdp restart
 sudo passwd azureuser
 ```
 - Azure CLIインストールした後、windows powershellで下記コマンド実施（・・いるのかよくわからない
-- →resource-groupの部分に自身の仮想マシンの属しているリソースグループ名を入れる。
+- 【myResourceGroup】に自分のリソースグループ名、【myVM】に自分の仮想マシン名をいれる。
 ```
 az vm open-port --resource-group myResourceGroup --name myVM --port 3389
 ```
