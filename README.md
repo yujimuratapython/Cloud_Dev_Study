@@ -31,8 +31,8 @@
 - https://kitsune.blog/engineer/linux
 
 # ゼロから環境構築
-- Git、Docker、VSCodeインストール、Githubのアカウント作成\
-- VSCode内、下記拡張機能インストールを行う。\
+- Git、Docker、VSCodeインストール、Githubのアカウント作成
+- VSCode内、下記拡張機能インストールを行う。
 -【Japanese Language Pack , Python , Remote Development , Docker】
 - githubのリポジトリからローカル環境へクローンする。
 - https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
@@ -41,7 +41,7 @@
 ◆リポジトリのクローン方法◆\
 git bashから、コマンド入力で行う。\
 VSCodeのフォルダ管理から行う。\
-今回は2の方法で環境を整えていく。\
+今回は2の方法で環境を整えていく。
   
   
 ◆クローン後の流れ◆\
@@ -67,13 +67,16 @@ VSCode下部タスクバーみたいなところに><のようなアイコンが
 【><】のアイコンからコンテナを停止させる等操作が行える。\
 ※このタスクバーみたいなところに、現在利用してるインタプリタ等表示される。\
 ※タスクバー内、玉紐と↑↓はgithubへpull,commit,pushするための物。\
-\
+
+
 コンテナ内Linux環境下あるJupyterLabとpythonコンパイラへ、ローカルのVScodeからリモートでアクセスを行い、\
 ローカルで作業している感覚で、リモート環境での開発が行える。\
 /opt/conda/bin/pythonのPython 3.9.6のインタプリタが選択できれば、うまく連携できている。\
 /opt/conda/bin/pythonというディレクトリはコンテナないLinux内ディレクトリとなる。
 
+
 # ここまでくればgithub　リポジトリからコードもらったり上げたり、チームでの開発が行えるようになっている・・・はず。
+
 
 # クラウドに仮想マシン作って、そこに開発環境をつくる。（今回はAzure利用）
 ```
