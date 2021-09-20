@@ -136,7 +136,7 @@ Azure CLIか Tera Termのようなもので接続する必要がある。
 ・Teratarm:端末へコンソール接続を行うためのソフト。インストールしておく。
 
 
-# Azure PortalとTeratarm
+# Azure PortalとTeraterm
 ◆Azure Portal　仮想マシンページ◆\
 仮想マシンが立ち上がると、Azure Portalに表示された状態になり、開始、再起動、停止やその他設定が行える。\
 基本内パブリックIPアドレス、仮想ネットワーク／サブネットと続き、その下の未設定みたいなところを押下。\
