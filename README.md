@@ -41,17 +41,17 @@
 
 
 # ゼロから環境構築
-◆Git、Docker、VSCodeインストール、Githubのアカウント作成◆
-- VSCode内、下記拡張機能インストールを行う。\
-【Japanese Language Pack , Python , Remote Development , Docker】
+◆Git、Docker、VSCodeインストール、Githubのアカウント作成◆\
+VSCode内、下記拡張機能インストールを行う。\
+【Japanese Language Pack , Python , Remote Development , Docker】\
 ◆githubのリポジトリからローカル環境へクローンする。◆\
 https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
 
 
 ◆リポジトリのクローン方法◆\
-git bashから、コマンド入力で行う。\
-VSCodeのフォルダ管理から行う。\
-今回は2の方法で環境を整えていく。
+1.git bashから、コマンド入力で行う。\
+2.VSCodeのフォルダ管理から行う。\
+今回は2の方法を利用する。
   
   
 ◆クローン後の流れ◆\
@@ -99,8 +99,8 @@ VSCode下部タスクバーみたいなところに><のようなアイコンが
 # Azure Portalでクラウド上にLinux仮想マシンを作成（windows環境とかもある）
 作成の流れ自体はその辺のサイトに書いている内容で問題ないが、注意する点というか引っかかった点として以下がある。\
 初期設定でSSH:22、RDP:3389のポート開放をチェックしとく。→　あとで設定はできるがちょっとめんどい。\
-SSH：SSH接続で使うポート\
-RDP：こちら側から仮想マシンへリモートデスクトップするために使うポート
+ポート番号22：SSH接続で使うポート\
+ポート番号3389：こちら側から仮想マシンへリモートデスクトップするために使うポート
 
 
 ◆SSH接続について◆\
