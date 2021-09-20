@@ -181,7 +181,7 @@ Azure PortalからRDP接続のファイルがダウンロード出来て、そ�
 🐀一匹のデスクトップ画面が現れるはず・・
 
 
-# デスクトップが起動した後の流れ
+# Ubuntuへデスクトップ接続出来た後、下記各種設定行う。
 - VM起動後の開発環境セットアップ(Linux)
 - https://dotnetdevelopmentinfrastructure.osscons.jp/index.php?VM%E8%B5%B7%E5%8B%95%E5%BE%8C%E3%81%AE%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%EF%BC%88Linux%EF%BC%89
 - Azure VMでLinuxインスタンスを起動したら最初にやっておくべき設定
@@ -197,4 +197,12 @@ Azure PortalからRDP接続のファイルがダウンロード出来て、そ�
 - https://qiita.com/yamada-hakase/items/a8efe626f598c5eb6f8c
 - Install and configure xrdp to use Remote Desktop with Ubuntu
 - https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
-  
+
+
+# Linux関連
+- bashで始めるシェルスクリプト基礎の基礎
+- https://atmarkit.itmedia.co.jp/ait/articles/0202/05/news001.html
+- シェルスクリプトを定期実行してみよう
+- https://note.com/goldnanoparticle/n/nb9bd20d18f37
+- Cronの使い方とテクニックと詰まったところ
+- https://qiita.com/UNILORN/items/a1a3f62409cdb4256219
