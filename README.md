@@ -123,7 +123,7 @@ Teraterm（コンソールツール）にIPを入力して、SSHで接続を行�
  https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
 
 
-# コンソール接続を行えたあとからの流れ
+# クラウドマシンへコンソール接続後
 - Azure CLIインストール（詳細はよくわからないが入れた・・）
 - Linux側リモート接続するためのアプリをコマンドでインストールする。
 ```
