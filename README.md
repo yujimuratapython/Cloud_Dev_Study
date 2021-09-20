@@ -119,8 +119,8 @@ Teraterm（コンソールツール）にIPを入力して、SSHで接続を行�
 あとは、下記内容を参考にしながら作成を行う。\
 
 
--【Install and configure xrdp to use Remote Desktop with Ubuntu】
-- https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
+【Install and configure xrdp to use Remote Desktop with Ubuntu】\
+ https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
 
 
 # コンソール接続を行えたあとからの流れ
@@ -150,13 +150,15 @@ Azure PortalからRDP接続のファイルがダウンロード出来て、そ�
 なぜかこのファイルからリモートデスクトップ接続をうまく行えなかったので、下記にて実施。
 
 # ウィンドウズのリモートデスクトップ接続を実行する。
-- Azure PortalからRDP接続のファイルがダウンロード出来て、そこから接続できるように思えるが、\
-なぜかこのファイルからリモートデスクトップ接続をうまく行えなかったので、下記にて実施。
-```
-111.111.111.111:3389　（111.111.111.111)の部分には仮想マシンのパブリックIPを入れて:3389（RDP用ポート）を付け足す。
-これで、問題なければ、RDP画面が起動し、【Login to my Xdrp】が表示されるので
-【Session】:Xorg 【username】:自分で設定したやつ 【password】:自分で設定したやつを入力すれば、🐀一匹のデスクトップ画面が現れるはず・・
-```
+Azure PortalからRDP接続のファイルがダウンロード出来て、そこから接続できるように思えるが、\
+なぜかこのファイルからリモートデスクトップ接続をうまく行えなかったので、下記にて実施。\
+◆Windowsリモートデスクトップ接続◆\
+例：111.111.111.111:3389　（111.111.111.111)の部分には仮想マシンのパブリックIPか設定したDNSを入れる。\
+これで、問題なければ、RDP画面が起動し、【Login to my Xdrp】が表示されるので\
+【Session】:Xorg 【username】:自分で設定したやつ 【password】:自分で設定したやつを入力すれば、\
+🐀一匹のデスクトップ画面が現れるはず・・
+
+
 # デスクトップが起動した後の流れ
 - VM起動後の開発環境セットアップ(Linux)
 - https://dotnetdevelopmentinfrastructure.osscons.jp/index.php?VM%E8%B5%B7%E5%8B%95%E5%BE%8C%E3%81%AE%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%EF%BC%88Linux%EF%BC%89
