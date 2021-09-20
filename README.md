@@ -136,7 +136,7 @@ VSCode下部タスクバーみたいなところに><のようなアイコンが
 →なくしたらめんどくさそうなので、しっかりと保存する。\
 最初Linux環境にパスワードが設定されていない状態なので、SSHで接続を行う。\
 Azure CLIか Tera Termのようなもので接続する必要がある。
-・Teratarm:端末へコンソール接続を行うためのソフト。インストールしておく。
+・Teratarm:端末へSSH接続を行うためのソフト。インストールしておく。
 
 
 # Azure PortalとTeraterm
@@ -162,7 +162,7 @@ Teratermに設定したDNS名（パブリックIPアドレスでも構わない�
  https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop
 
 
-# クラウドマシンへコンソール接続後
+# クラウドマシンへ接続のち下記実施
 Azure CLIインストール（詳細はよくわからないが入れた・・）\
 Linux側リモート接続するためのアプリをコマンドでインストールする。
 ```
