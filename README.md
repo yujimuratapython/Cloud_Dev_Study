@@ -103,7 +103,7 @@ VSCode下部タスクバーみたいなところに><のようなアイコンが
 ※このタスクバーみたいなところに、現在利用してるインタプリタ等表示される。\
 ※タスクバー内、玉紐と↑↓はgithubへpull,commit,pushするための物。
 
-
+◆連携の流れ◆
 コンテナ内Linux環境下あるJupyterLabとpythonコンパイラへ、ローカルのVScodeからリモートでアクセスを行い、\
 ローカルで作業している感覚で、リモート環境での開発が行える。\
 /opt/conda/bin/pythonのPython 3.9.6のインタプリタが選択できれば、うまく連携できている。\
@@ -196,7 +196,8 @@ Azure PortalからRDP接続用ショートカットのようなものがダウ�
 ```
 【Login to my Xdrp】
 【Session】:Xorg
-【username】:仮想マシン作成SSH接続の時に入力したユーザー名【password】:自分で設定したやつ
+【username】:仮想マシン作成SSH接続の時に入力したユーザー名
+【password】:自分で設定したやつ
 ```
 
 
