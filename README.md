@@ -41,11 +41,11 @@
 
 
 # ゼロから環境構築
-- Git、Docker、VSCodeインストール、Githubのアカウント作成
+◆Git、Docker、VSCodeインストール、Githubのアカウント作成◆
 - VSCode内、下記拡張機能インストールを行う。\
 【Japanese Language Pack , Python , Remote Development , Docker】
-- githubのリポジトリからローカル環境へクローンする。
-- https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
+◆githubのリポジトリからローカル環境へクローンする。◆\
+https://github.com/Satou-Kazuki/Cloud_Dev_Study.git
 
 
 ◆リポジトリのクローン方法◆\
@@ -72,6 +72,7 @@ anaconda, python:3.9.6 , JupyterLab ,各種ライブラリ】がインストー�
 コンテナの作成及び実行が問題なく行われれば、VScodeとコンテナの相互が連携している状態になる。
 
 
+◆VSCode Docker,Github連携について◆\
 VSCode下部タスクバーみたいなところに><のようなアイコンがあり、\
 【><】の横にDev Container:Jupyter Projectと表示される。\
 【><】のアイコンからコンテナを停止させる等操作が行える。\
