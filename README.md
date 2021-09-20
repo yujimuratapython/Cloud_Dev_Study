@@ -204,3 +204,13 @@ Azure PortalからRDP接続のファイルがダウンロード出来て、そ�
 - https://note.com/goldnanoparticle/n/nb9bd20d18f37
 - Cronの使い方とテクニックと詰まったところ
 - https://qiita.com/UNILORN/items/a1a3f62409cdb4256219
+- UbuntuにVSCodeをインストールする3つの方法
+- https://qiita.com/yoshiyasu1111/items/e21a77ed68b52cb5f7c8
+- UbuntuにGitをインストールする
+- https://qiita.com/tommy_g/items/771ac45b89b02e8a5d64
+- Ubuntu 20.04へのDockerのインストールおよび使用方法
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ja
+- Ubuntu20.04で日本語入力(Mozc)を可能にする方法
+- https://novicengineering.com/ubuntu_mozc_install/
+- 
+- 
