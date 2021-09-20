@@ -157,21 +157,23 @@ sudo systemctl enable xrdp
 echo xfce4-session >~/.xsession
 sudo service xrdp restart
 ```
-仮想マシンにパスワードを設定する。\
+- 仮想マシンにパスワードを設定する。\
 →sudo passwd (入れたいパスワード）下記いれるとazureuserというパスワードが設定される。
 ```
 sudo passwd azureuser
 ```
-- Azure CLIインストールした後、windows powershellで下記コマンド実施（・・いるのかよくわからない
-- 【myResourceGroup】に自分のリソースグループ名、【myVM】に自分の仮想マシン名をいれる。
+- Azure CLIインストールした後、windows powershellで下記コマンド実施（・・いるのかよくわからない\
+ 【myResourceGroup】に自分のリソースグループ名、【myVM】に自分の仮想マシン名をいれる。
 ```
 az vm open-port --resource-group myResourceGroup --name myVM --port 3389
 ```
-RDPから接続する。
-Azure PortalからRDP接続のファイルがダウンロード出来て、そこから接続できるように思えるが、
-なぜかこのファイルからリモートデスクトップ接続をうまく行えなかったので、下記にて実施。
+以上、ubuntuデスクトップへのリモート接続の準備完了。
+
 
 # ローカルマシンからクラウドマシンへリモート接続
+◆注意点◆\
+Azure PortalからRDP接続用ショートカットのようなものがダウンロード出来、それから接続を行えるが、\
+何故かうまく接続が行えなかった。（勘違いかもしれないが特に困らないので放置）\
 ◆Windowsリモートデスクトップ接続◆\
 例：111.111.111.111:3389　（111.111.111.111)の部分には仮想マシンのパブリックIPか設定したDNSを入れる。\
 これで、問題なければ、RDP画面が起動し、【Login to my Xdrp】が表示されるので\
@@ -212,5 +214,3 @@ Azure PortalからRDP接続のファイルがダウンロード出来て、そ�
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ja
 - Ubuntu20.04で日本語入力(Mozc)を可能にする方法
 - https://novicengineering.com/ubuntu_mozc_install/
-- 
-- 
